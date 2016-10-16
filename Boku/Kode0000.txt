@@ -1,0 +1,22 @@
+TITLE : Not Mario Kart  v01
+CREATOR : luisa
+DESCRIPTION : Started from the bottom now we are here.
+Date : 10/16/2016 10:00 AM
+========
+
+Cycle 3
+    Page  1
+        1    WHEN always -- DO follow 
+        2    WHEN always -- DO move on path red path quickly 
+        3    WHEN bumped rock -- DO move on path orange path 
+        4    WHEN end of path red path me -- DO switch page 2 
+        5    WHEN bumped rock -- DO jump low 
+        6    WHEN always -- DO 
+    Page  2
+        1    WHEN always -- DO move on path orange path quickly quickly 
+        2    WHEN got rock -- DO jump high 
+        3    WHEN bumped rock -- DO switch page 3 
+    Page  3
+        1    WHEN always -- DO move on path blue path quickly 
+        2    WHEN bumped rock -- DO move on path green path quickly 
+        3    WHEN always -- DO move on path pink path quickly 
